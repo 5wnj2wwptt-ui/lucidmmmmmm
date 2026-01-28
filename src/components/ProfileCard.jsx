@@ -12,7 +12,7 @@ export default function ProfileCard() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="mb-4 cursor-pointer bg-white w-25 h-25 rounded-full profilepic hover:shadow-[0_0_35px_rgba(255,255,255,0.5)] transition-shadow duration-300" />
+          <div className="mb-4 pointer-events-auto cursor-pointer bg-white w-25 h-25 rounded-full profilepic hover:shadow-[0_0_35px_rgba(255,255,255,0.5)] transition-shadow duration-300" />
 
           <span className="text-center w-full block regular text-2xl">LUCID</span>
           <span className="text-center w-full block mb-4 light text-md mt-2">
@@ -32,7 +32,7 @@ export default function ProfileCard() {
               >
                 <img
                   src="/MarmoHead.png"
-                  className="w-10 hover:rotate-15 transition-transform duration-300 ease-out-cubic cursor-pointer drop-shadow-[1px_2px_3px_rgba(0,0,0,0.4)]"
+                  className=" pointer-events-auto w-10 hover:rotate-15 transition-transform duration-300 ease-out-cubic cursor-pointer drop-shadow-[1px_2px_3px_rgba(0,0,0,0.4)]"
                   alt="Marmo"
                 />
               </a>
@@ -50,7 +50,7 @@ export default function ProfileCard() {
               >
                 <img
                   src="/tiktok.webp"
-                  className="w-10 hover:rotate-15 transition-transform duration-300 ease-out-cubic cursor-pointer drop-shadow-[1px_2px_3px_rgba(0,0,0,0.4)]"
+                  className="w-10 pointer-events-auto hover:rotate-15 transition-transform duration-300 ease-out-cubic cursor-pointer drop-shadow-[1px_2px_3px_rgba(0,0,0,0.4)]"
                   alt="TikTok"
                 />
               </a>
@@ -68,7 +68,7 @@ export default function ProfileCard() {
               >
                 <img
                   src="/yt.svg"
-                  className="w-10 hover:rotate-15 transition-transform duration-300 ease-out-cubic cursor-pointer drop-shadow-[1px_2px_3px_rgba(0,0,0,0.4)]"
+                  className="w-10  pointer-events-auto hover:rotate-15 transition-transform duration-300 ease-out-cubic cursor-pointer drop-shadow-[1px_2px_3px_rgba(0,0,0,0.4)]"
                   alt="YouTube"
                 />
               </a>
