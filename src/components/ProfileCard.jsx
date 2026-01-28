@@ -4,7 +4,7 @@ import "react-tooltip/dist/react-tooltip.css";
 
 export default function ProfileCard() {
   return (
-    <div className="fixed inset-0 flex items-center justify-center">
+    <div className="fixed inset-0 flex items-center justify-center pointer-events-none">
       <div className="flex h-100 w-[70vw] md:w-[50vw] md:h-fit profile-card">
         <motion.div
           className="w-full items-center flex justify-center flex-col"
